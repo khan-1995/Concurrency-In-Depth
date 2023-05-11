@@ -47,5 +47,42 @@ public class ConcurrencyFairOptimizer implements Runnable {
 //		int num = 27;
 //		System.out.println(new ConcurrencyFairOptimizer(0,0,null).isPrime(num));
 	}
-
+/** Log For Current Program
+ *  Current Num 3
+ *  Current Num 12
+ *  Current Num 11
+ *  Current Num 10
+ *  Current Num 9
+ *  Current Num 8
+ *  Current Num 7
+ *  Current Num 6
+ *  Current Num 4
+ *  Current Num 5
+ *
+ *  Total Time Taken 19494
+ *
+ *  Total Time Taken 19494
+ *
+ *  Total Time Taken 19494
+ *
+ *  Total Time Taken 19494
+ *
+ *  Total Time Taken 19494
+ *
+ *  Total Time Taken 19494
+ *
+ *  Total Time Taken 19494
+ *
+ *  Total Time Taken 19494
+ *
+ *  Total Time Taken 19493
+ *
+ *  Final Total Time Taken 19500
+ *
+ *  Total Time Taken 19494
+ *
+ *  Thread Executed sucessfully 5761454
+ *
+ * 
+ * */
 }
