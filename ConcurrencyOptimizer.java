@@ -8,11 +8,10 @@ public class ConcurrencyOptimizer implements Runnable {
 	int start_num;
 	int end_num;
 	AtomicInteger TotalPrimeCount;
-//	AtomicInteger CompletedProcessCount;
-//	
-//	public int getCompletedProcessCount() {
-//		return CompletedProcessCount.get();
-//	}
+
+	public ConcurrencyOptimizer() {
+	}
+
 
 	public ConcurrencyOptimizer(int start_num, int end_num,AtomicInteger TotalCount) {
 		super();
